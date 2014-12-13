@@ -63,4 +63,12 @@
       <block type="movement_stop" id="15"></block>
     </next>
   </block>
+  <block type="led_select" id="24" inline="true" x="152" y="368">
+    <field name="ACTION">OFF</field>
+    <value name="LED">
+      <block type="math_number" id="31">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
 </xml>
