@@ -1,1 +1,14 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_setmotors" id="31" inline="true" x="146" y="211">
+    <value name="BOTHMOVLEFT">
+      <block type="sensor_object" id="14">
+        <field name="OBJECT">LEFTFRONT</field>
+      </block>
+    </value>
+    <value name="BOTHMOVRIGHT">
+      <block type="sensor_object" id="7">
+        <field name="OBJECT">LEFTFRONT</field>
+      </block>
+    </value>
+  </block>
+</xml>
